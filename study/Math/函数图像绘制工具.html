@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!-- saved from url=(0141)https://zh.numberempire.com/graphingcalculator.php?functions=log(x)%2Csqrt(x)%2Csin(x)%2C1%2Fx%2Cx%5E2&xmin=0&xmax=3&ymin=-1.0&ymax=1.0&var=x -->
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--
+-
+-
+-
+Accessing this website with scripts or programs is stricly prohibited.
+All violating IPs will be blacklisted.
+This document is protected by the copyright law.
+Modification, publishing and redistribution of this document are prohibited.
+-
+-
+-
+-->
+<meta property="og:image" content="https://www.numberempire.com/images/sharing-thumbnail.jpeg">
+<meta property="og:url" content="http://zh.numberempire.com/graphingcalculator.php">
+<meta property="og:title" content="函数图像绘制工具">
+<meta property="og:description" content="函数图像绘制工具">
+  <meta name="description" content="函数图形绘制器（绘图工具）绘制给定函数的图像。多个函数分别用不同颜色绘出。函数之间请用逗号，X值与Y值取值范围分隔。输入完毕后请按“绘制图形”按钮。图形计算器允许使用图形窗格下面的控制按钮移动、缩放和居中图形。您也可以使用鼠标拖动来移...">
+<style>body{margin-top:0;font-family:sans-serif;line-height:150%;}input{margin:5px;}td.b1{font-weight:bold;text-align:center;}td.b{font-weight:bold;text-align:right;padding-right:0.5em;}a.n{color:green;}a.r{color:blue;}a.ne{color:orange;}a.el{color:gray;font-size:x-small;}a.tex{font-size:small;font-family:arial, sans-serif;}a:hover{text-decoration:underline;}a{text-decoration:none;}.text{font-size:medium;}h1, h2, h3{margin:0.2em;}a.gl{color:gray;text-decoration:none}td.result{font-size:large;}#user_history{position:absolute;visibility:hidden;top:30px;right:20px;left:20px;background-color:#F0F0F0;border:1px solid #000;padding:10px;text-align:center;}img.control:hover{cursor:pointer;}a.author{color:gray;}a.menu{padding:10px;display:block;background-color:#eee;border-radius:10px;margin:10px;min-width:17em;}.left{text-align:left;}.center{text-align:center;}table.center, div.center{margin:0 auto;}.right{text-align:right;}.justify{text-align:justify;}.wide{width:100%;}.right{float:right;}table.cellpadding3 td{padding:3px;}table.cellpadding10 td{padding:10px;}.gray{color:gray;}img{border:0;}table.border, table.border td{border:1px solid black;border-collapse:collapse;}.nowrap{white-space:nowrap;}.hidden{visibility:hidden;}.middle{vertical-align:middle;}table.main{max-width:1100px;width:100%;}input.full_width{width:80%;}input.full_width_60{width:60%;}input.full_width_20{width:20em;}div.full_width{width:80%;}.icon:hover{cursor:pointer;}.shadow{box-shadow:4px 4px 12px 2px #808080;border-radius:8px;margin:5px auto 12px auto;padding:4px;}input[type='number']{-moz-appearance:textfield;}input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance:none;}#perm_ad{min-height:280px;}.table{display:table;}.section{padding:5px 0;}.warn{border-radius:25px;border:10px solid black;padding:20px;background-color:white;}@-webkit-keyframes blinker{from{opacity:1.0;}to{opacity:0.0;}}.blink{animation-name:blinker;animation-duration:0.75s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;animation-direction:alternate;animation-name:blinker;-moz-animation-duration:0.75s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease-in-out;-moz-animation-direction:alternate;-webkit-animation-name:blinker;-webkit-animation-duration:0.75s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-webkit-animation-direction:alternate;}.tooltip{background-color:#FFA9B5;padding:10px;position:absolute;border-radius:10px;font-size:small;border:solid 1px red;}.tooltip::after{content:" ";position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:red transparent transparent transparent;}.copy-tooltip{position:absolute;background-color:rgba(255, 255, 255, 255);padding:8px 12px;border-radius:5px;font-size:12px;color:#555;opacity:0;transition:transform 0.5s ease-in-out, opacity 1s ease-in-out;box-shadow:3px 3px 3px 0 #ddd;border:solid 1px green;z-index:1;}.copy-tooltip-arrow-left::after{content:" ";position:absolute;top:50%;right:100%;margin-top:-5px;border-width:5px;border-style:solid;border-color:transparent green transparent transparent;}.copy-tooltip-arrow-right::after{content:" ";position:absolute;top:50%;left:100%;margin-top:-5px;border-width:5px;border-style:solid;border-color:transparent transparent transparent green;}img.logo{transition:opacity 3s;opacity:1;}img.logo:hover{opacity:0;}table.results{border-collapse:collapse;text-align:left;margin:10px auto;}div.results{padding:10px 0;}table.results th{background-color:#DBEEE7;padding:10px;white-space:nowrap;text-align:center;}table.results td{background-color:#E9FEF9;border-top:1px solid gray;padding:10px;}table.results tr:hover td{background-color:#F4FEFC;}table.resutls tr{border:1px solid white;}table.results tr:first-child th:first-child{border-top-left-radius:20px;}table.results tr:first-child th:last-child{border-top-right-radius:20px;}table.results tr:last-child td:first-child{border-bottom-left-radius:20px;}table.results tr:last-child td:last-child{border-bottom-right-radius:20px;}table.results tr:last-child th:first-child{border-bottom-left-radius:20px;}table.results tr:last-child th:last-child{border-bottom-right-radius:20px;}.ac-renderer{position:absolute;background:#eee;border:1px solid #ddd;-moz-box-shadow:2px 2px 2px rgba(102, 102, 102, .4);-webkit-box-shadow:2px 2px 2px rgba(102, 102, 102, .4);width:300px;}.ac-row{cursor:pointer;font-size:0.8em;color:#333;padding:.4em;}.ac-highlighted{font-weight:bold;}.ac-active{color:#eb8f00;border:1px solid #fbd850;background-color:#fff;}.banner{border:3px solid #FF750B;margin:7px;border-radius:20px;padding:20px;text-align:center;display:block;color:black;}.banner:hover{background:#FFC59B;text-decoration:none;}</style>
+<link rel="alternate" hreflang="de" href="https://de.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="en" href="https://www.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="es" href="https://es.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="fr" href="https://fr.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="it" href="https://it.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="nl" href="https://nl.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="pl" href="https://pl.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="pt" href="https://pt.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="ru" href="https://ru.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="zh" href="https://zh.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="ja" href="https://ja.numberempire.com/graphingcalculator.php">
+<link rel="alternate" hreflang="ko" href="https://ko.numberempire.com/graphingcalculator.php">
+<title>函数图像绘制工具</title>
+<script src="./函数图像绘制工具_files/f.txt" id="google_shimpl"></script><script>
+  var lang = 'zh';
+  var url = "https:\/\/zh.numberempire.com\/graphingcalculator.php";
+  var tr_parentheses_do_not_match = "\u62ec\u53f7\u4e0d\u5339\u914d\u6216\u4e0d\u5b8c\u6574";
+  var tr_empty_string = "\u8868\u8fbe\u5f0f\u4e0d\u5b8c\u6574";
+  var tr_function = "\u51fd\u6570";
+  var tr_invalid_exp = "\u65e0\u6548\u7684\u8868\u8fbe\u5f0f";
+  var tr_not_recognized = "\u5f88\u62b1\u6b49\uff0c\u60a8\u7684\u8f93\u5165\u65e0\u6cd5\u88ab\u8bc6\u522b\u3002<br>\u8bf7\u68c0\u67e5\u60a8\u7684\u8f93\u5165\uff0c\u53ef\u80fd\u4e0d\u7b26\u5408\u8bed\u53e5\u89c4\u5219\u3002";
+  var tr_apply_diff_rule = "\u5e94\u7528\u5fae\u5206\u89c4\u5219";
+  var tr_simplify_exp = "\u5316\u7b80\u8868\u8fbe\u5f0f";
+  var tr_final_simpl_canon = "\u6700\u7b80\u5316\u548c\u6807\u51c6\u5316";
+  var tr_disable_adblock = "\u8bf7\u60a8\u5173\u95ed\u8be5\u7f51\u7ad9\u7684\u5e7f\u544a\u62e6\u622a\uff0c\u5341\u5206\u611f\u8c22\uff01";
+  var tr_loading_js = "\u6b63\u5728\u52a0\u8f7d...";
+	var tr_max_field_length_reached = "\u8f93\u5165\u957f\u5ea6\u5df2\u8fbe\u5230\u4e0a\u9650";
+  var show_banners = true;
+	var alt_banner = "<a class='banner' href='https:\/\/www.nutritionvalue.org\/diary.php?utm_source=ref-webqc'>Get control of 2022!<br>Track your food intake, exercise, sleep and meditation for free.<\/a>";
+    var is_cookie_policy_required = false;
+  var tr_consent_header = "\u6ce8\u610f";
+  var tr_consent_text = "<p>\u6b64\u7f51\u7ad9\u4f7f\u7528Cookie\u542f\u7528\u91cd\u8981\u7684\u7f51\u7ad9\u529f\u80fd\uff0c\u5305\u62ec\u7528\u6237\u9996\u9009\u9879\u3001\u7edf\u8ba1\u4fe1\u606f\u3001\u76ee\u6807\u548c\u4e2a\u6027\u5316\u8bbe\u7f6e\uff0c\u5982<a href='\/privacypolicy.php'>privacy policy<\/a>.<\/p><p>\u60a8\u53ef\u4ee5\u901a\u8fc7\u5173\u95ed\u6216\u53d6\u6d88\u6b64\u901a\u77e5\u6216\u5355\u51fb\u9875\u9762\u4e0a\u7684\u94fe\u63a5\u6216\u6309\u94ae\u6765\u63a5\u53d7Cookies\u3002<\/p>";
+  var tr_accept = "\u63a5\u53d7";
+  var tr_customize = "\u81ea\u5b9a\u4e49";
+  var tr_necessary = "\u5fc5\u9700";
+  var tr_preferences = "\u8bbe\u5b9a";
+  var tr_statistics = "\u7edf\u8ba1\u4fe1\u606f";
+  var tr_marketing = "\u8425\u9500";
+  var tr_withdraw_cookie_consent_confirmation = "Cookie \u8bb8\u53ef\u88ab\u64a4\u56de\u3002\u5355\u51fb \u201cOK\u201d \u91cd\u65b0\u52a0\u8f7d\u9875\u9762\u3002";
+  var ad_msgs = ["\u60a8\u597d\uff01\u6211\u77e5\u9053\u60a8\u4e0d\u559c\u6b22\u5e7f\u544a\uff0c\u4f46\u662f\u6ca1\u6709\u5e7f\u544a\u8fd9\u4e2a\u7f51\u7ad9\u96be\u4ee5\u7ef4\u6301\uff01","\u563f\uff01\u8fd9\u4e2a\u7f51\u7ad9\u5bf9\u4f60\u6709\u5e2e\u52a9\u5417\uff1f\u8bf7\u5e2e\u52a9\u6211\u4eec\u7ef4\u62a4\u5b83\uff01","\u60a8\u597d\uff01\u5982\u679c\u6ca1\u6709\u5e7f\u544a\u6536\u5165\uff0c\u6211\u4eec\u5c06\u65e0\u6cd5\u7ef4\u6301\u6b64\u7f51\u7ad9\u3002","\u5c0a\u656c\u7684\u8bbf\u5ba2!\u6211\u4eec\u9700\u8981\u5e7f\u544a\u8d39\u652f\u6491\u7f51\u7ad9\u8fd0\u8425!"];
+  (adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;
+  function checkInput(){};
+  function setInput(){};
+  function copyToClipboard(){};
+</script><script src="./函数图像绘制工具_files/f(1).txt" async=""></script>
+<meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><script src="./函数图像绘制工具_files/analytics.js.下载" type="text/javascript" async=""></script></head>
+<body>
+<div id="translations"></div>
+<table class="center zero main" id="main">
+<tbody><tr id="top_sandbar"><td class="center">
+<table class="zero wide"><tbody><tr>
+<td class="left" style="width: 85%">
+    <a href="https://zh.numberempire.com/">首页</a>
+    <span class="gray">|</span>
+          <a href="https://zh.numberempire.com/graphingcalculator.php?functions=log(x)%2Csqrt(x)%2Csin(x)%2C1%2Fx%2Cx%5E2&amp;xmin=0&amp;xmax=3&amp;ymin=-1.0&amp;ymax=1.0&amp;var=x#menu">菜单</a>
+      <span class="gray">|</span>
+        <a href="https://zh.numberempire.com/getinvolved.php">参与推广</a>
+    			    <span class="gray">|</span>
+   		<a href="javascript:load_javascript(translations_file);void(0);">
+					提供更好的翻译</a>
+		    </td><td class="right" style="width: 15%; min-width: 100px">
+    <span title="为这个网站评分"><img id="star1" alt="1" src="./函数图像绘制工具_files/graystar.png" width="20" height="20"><img id="star2" alt="2" src="./函数图像绘制工具_files/graystar.png" width="20" height="20"><img id="star3" alt="3" src="./函数图像绘制工具_files/graystar.png" width="20" height="20"><img id="star4" alt="4" src="./函数图像绘制工具_files/graystar.png" width="20" height="20"><img id="star5" alt="5" src="./函数图像绘制工具_files/graystar.png" width="20" height="20"></span>
+<script>
+var tr_comment = "\u60a8\u8981\u53d1\u8868\u8bc4\u8bba\u5417\uff1f";
+</script>
+</td>
+</tr>
+</tbody></table></td></tr>
+<tr class="center"><td>
+	<div class="perm_ad">
+<!-- NE-top -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-7891406799955373" data-ad-slot="1562322018" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="border: none; height: 280px; width: 1094px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_0_anchor" style="border: none; height: 280px; width: 1094px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<script>
+ var top_banner_shown = 42;
+</script>
+</div>
+</td></tr>
+<tr><td class="center" id="toplink">
+</td></tr>
+<tr class="center"><td><h1>函数图像绘制工具</h1>
+</td></tr>
+<tr class="center"><td>
+    <form name="form1" onsubmit="plotFunctions();return false;">
+    <label>
+      函数输入框:<br>
+      <input autofocus="" id="functions" type="text" value="log(x),sqrt(x),sin(x),1/x,x^2" class="full_width" onchange="checkInput(this);" onkeyup="checkInput(this);"><br>
+    </label>
+    <table style="display: inline-table;">
+    <tbody><tr><td class="right" style="width:8em">
+      横 坐标,
+    </td><td>
+      <label>从:&nbsp;<input id="xmin" type="text" value="0" size="10"></label>
+    </td>
+        <td>
+      <label>到:&nbsp;<input id="xmax" type="text" value="3" size="10"></label>
+    </td>
+    <td>
+      <label>Variable: <input id="var" type="text" value="x" size="1" style="text-align: center;" maxlength="1"></label>
+   </td></tr></tbody></table><br>
+    <table style="display: inline-table;">
+    <tbody><tr><td class="right" style="width:8em;">
+    纵 坐标,</td><td>
+      <label>从:&nbsp;<input id="ymin" type="text" value="-1.0" size="10"></label>
+    </td>
+        <td>
+      <label>到:&nbsp;<input id="ymax" type="text" value="1.0" size="10"></label>
+    </td><td style="vertical-align: middle">
+    <input type="submit" value="绘制图像">
+    </td></tr>
+    </tbody></table>
+    <input type="hidden" name="_p1" value="2414"></form>
+</td></tr>
+<tr><td class="center">
+    <div id="placeholder" style="width: 1000px; height: 600px; background-color: white; padding: 0px; position: relative; cursor: auto;"><canvas class="base" width="1000" height="600"></canvas><canvas class="overlay" width="1000" height="600" style="position: absolute; left: 0px; top: 0px;"></canvas><div class="tickLabels" style="font-size:smaller"><div class="xAxis x1Axis" style="color:#545454"><div class="tickLabel" style="position:absolute;text-align:center;left:-16px;top:576px;width:111px">0.0</div><div class="tickLabel" style="position:absolute;text-align:center;left:144px;top:576px;width:111px">0.5</div><div class="tickLabel" style="position:absolute;text-align:center;left:303px;top:576px;width:111px">1.0</div><div class="tickLabel" style="position:absolute;text-align:center;left:462px;top:576px;width:111px">1.5</div><div class="tickLabel" style="position:absolute;text-align:center;left:621px;top:576px;width:111px">2.0</div><div class="tickLabel" style="position:absolute;text-align:center;left:780px;top:576px;width:111px">2.5</div><div class="tickLabel" style="position:absolute;text-align:center;left:940px;top:576px;width:111px">3.0</div></div><div class="yAxis y1Axis" style="color:#545454"><div class="tickLabel" style="position:absolute;text-align:right;top:557px;right:968px;width:32px">-1.00</div><div class="tickLabel" style="position:absolute;text-align:right;top:486px;right:968px;width:32px">-0.75</div><div class="tickLabel" style="position:absolute;text-align:right;top:416px;right:968px;width:32px">-0.50</div><div class="tickLabel" style="position:absolute;text-align:right;top:345px;right:968px;width:32px">-0.25</div><div class="tickLabel" style="position:absolute;text-align:right;top:275px;right:968px;width:32px">0.00</div><div class="tickLabel" style="position:absolute;text-align:right;top:204px;right:968px;width:32px">0.25</div><div class="tickLabel" style="position:absolute;text-align:right;top:133px;right:968px;width:32px">0.50</div><div class="tickLabel" style="position:absolute;text-align:right;top:63px;right:968px;width:32px">0.75</div><div class="tickLabel" style="position:absolute;text-align:right;top:-8px;right:968px;width:32px">1.00</div></div></div><div class="legend"><div style="position: absolute; width: 69px; height: 142px; top: 9px; right: 9px; background-color: rgb(255, 255, 255); opacity: 0.85;"> </div><table style="position:absolute;top:9px;right:9px;;font-size:smaller;color:#545454"><tbody><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(237,194,64);overflow:hidden"></div></div></td><td class="legendLabel">log(x)</td></tr><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(175,216,248);overflow:hidden"></div></div></td><td class="legendLabel">sqrt(x)</td></tr><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(203,75,75);overflow:hidden"></div></div></td><td class="legendLabel">sin(x)</td></tr><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(77,167,77);overflow:hidden"></div></div></td><td class="legendLabel">1/x</td></tr><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(148,64,237);overflow:hidden"></div></div></td><td class="legendLabel">x^2</td></tr></tbody></table></div></div>
+</td></tr>
+<tr class="center"><td>
+<img src="./函数图像绘制工具_files/arrow-up.png" onclick="shiftGraph(0, 0.1);" class="control" title="上移" alt="上移">
+<img src="./函数图像绘制工具_files/arrow-down.png" onclick="shiftGraph(0, -0.1);" class="control" title="下移" alt="下移">
+<img src="./函数图像绘制工具_files/arrow-left.png" onclick="shiftGraph(0.1, 0);" class="control" title="左移" alt="左移">
+<img src="./函数图像绘制工具_files/arrow-right.png" onclick="shiftGraph(-0.1, 0);" class="control" title="右移" alt="右移">
+&nbsp;
+<img src="./函数图像绘制工具_files/plus.png" onclick="resizeGraph(-1, -1);" class="control" title="放大" alt="放大">
+<img src="./函数图像绘制工具_files/minus.png" onclick="resizeGraph(1, 1);" class="control" title="缩小" alt="缩小">
+&nbsp;
+<img src="./函数图像绘制工具_files/horizontal-squize.png" onclick="resizeGraph(-1, 0);" class="control" title="横向放大" alt="横向放大">
+<img src="./函数图像绘制工具_files/horizontal-expand.png" onclick="resizeGraph(1, 0);" class="control" title="横向缩小" alt="横向缩小">
+<img src="./函数图像绘制工具_files/vertical-squize.png" onclick="resizeGraph(0, -1);" class="control" title="纵向放大" alt="纵向放大">
+<img src="./函数图像绘制工具_files/vertical-expand.png" onclick="resizeGraph(0, 1);" class="control" title="纵向缩小" alt="纵向缩小">
+&nbsp;
+<img src="./函数图像绘制工具_files/center-graph.png" onclick="centerGraph(true, true);" class="control" title="中心图片" alt="中心图片">
+</td></tr>
+<tr class="center"><td>
+<a class="tex" id="direct_link" href="https://zh.numberempire.com/graphingcalculator.php?functions=log(x)%2Csqrt(x)%2Csin(x)%2C1%2Fx%2Cx%5E2&amp;xmin=0&amp;xmax=3&amp;ymin=-1.0&amp;ymax=1.0&amp;var=x">本页链接</a>
+</td></tr>
+<tr><td class="center" style="padding: 5px">
+	<!-- Number Empire -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-7891406799955373" data-ad-slot="5536397997" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="border: none; height: 280px; width: 1090px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_1_anchor" style="border: none; height: 280px; width: 1090px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</td></tr>
+<tr class="center"><td>
+<div class="justify shadow">
+	<strong>函数图形绘制器</strong>（绘图工具）绘制给定函数的图像。多个函数分别用不同颜色绘出。函数之间请用逗号，X值与Y值取值范围分隔。输入完毕后请按“绘制图形”按钮。图形计算器允许使用图形窗格下面的控制按钮移动、缩放和居中图形。您也可以使用鼠标拖动来移动图形，用鼠标滚轮来调整其大小。图形计算器可用于可视化其他计算的结果（例如，绘制函数及其导数的图形）。要在图形上绘制单个点，请以<i>x:y</i>格式输入，例如<i>0.5:1.5</i>。通过将点和函数放在括号中，可以对它们进行分组并赋予相同的标签和颜色：（label，[color，]x1:y1，x2:y2）或（label，[color，]function1，function2）。点不能与同一组中的函数混合。图形计算器支持标准 <a href="http://www.infobyip.com/standardhtmlcsscolors.php" target="_blank">html颜色</a>。分段函数可以使用<i>def（var，from，to）</i>定义，例如<i>def（x，1，2）</i>。
+	<p id="ops_and_funs">
+<a id="ops_and_funs_switch" href="javascript:switchHelp();void(0);">支持的函数和运算</a>
+</p>
+</div>
+</td></tr>
+<tr class="center"><td>
+<strong>一些例子</strong>
+<table class="cellpadding10" style="width: 80%; margin: 0 auto">
+<tbody><tr>
+<td><a href="https://zh.numberempire.com/graphingcalculator.php?functions=1%2Fx%2Cx&amp;xmin=-2.892187&amp;xmax=2.967188&amp;ymin=-1.921155&amp;ymax=1.985095&amp;var=x">1/x, x</a></td>
+<td><a href="https://zh.numberempire.com/graphingcalculator.php?functions=sin%28x%29%2C1%3A1%2C-1%3A-1&amp;xmin=-2.364843&amp;xmax=2.322657&amp;ymin=-1.444983&amp;ymax=1.680017&amp;var=x">sin(x), 1:1, -1:-1</a></td>
+</tr><tr>
+<td><a href="https://zh.numberempire.com/graphingcalculator.php?functions=%28trig%2C%20sin%28x%29%2C%20cos%28x%29%29%2C%20%28linear%2C%20x%2C%20x%2F2%2B1%29&amp;xmin=-5.614739&amp;xmax=5.829353&amp;ymin=-3.704718&amp;ymax=3.924676&amp;var=x">(trig, sin(x), cos(x)), (linear, x, 2*x+1)</a></td>
+<td><a href="https://zh.numberempire.com/graphingcalculator.php?functions=(quadrants%2C%20green%2C%201%3A1%2C%20-1%3A1%2C%20-1%3A-1%2C%201%3A-1)&amp;xmin=-3.014641&amp;xmax=2.844734&amp;ymin=-1.529455&amp;ymax=1.595544&amp;var=x">(quadrants, green, 1:1, -1:1, -1:-1, 1:-1)</a></td>
+</tr><tr>
+<td><a href="https://zh.numberempire.com/graphingcalculator.php?functions=(Ellipse%2C%20green%2C%20sqrt(1-x*x%2F4)%2C-sqrt(1-x*x%2F4))&amp;xmin=-3.229315&amp;xmax=3.229315&amp;ymin=-2.048&amp;ymax=2.048&amp;var=x">(Ellipse, green, sqrt(1-x*x/4), -sqrt(1-x*x/4))</a></td>
+<td><a href="https://zh.numberempire.com/graphingcalculator.php?functions=(Piecewise%2C%202-x*def(x%2C%200%2C%201)%2C%20x*def(x%2C%201%2C%202))&amp;xmin=-1&amp;xmax=3&amp;ymin=0&amp;ymax=3&amp;var=x">
+(Piecewise, 2-x*def(x, 0, 1), x*def(x, 1, 2))
+</a>
+</td>
+</tr>
+</tbody></table>
+<script src="./函数图像绘制工具_files/jquery-flot-mousewheel.js.下载"></script>
+</td></tr>
+<tr class="center"><td>
+	<!-- Number Empire -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-7891406799955373" data-ad-slot="5536397997" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_2_expand" style="border: none; height: 280px; width: 1102px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_2_anchor" style="border: none; height: 280px; width: 1102px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</td></tr>
+	<tr><td>
+		<table class="wide center">
+<tbody><tr><td class="text center" id="menu"><h3>数学工具</h3><br>
+  <table class="center"><tbody><tr><td class="left" style="width: 250px;">
+    <a class="menu" href="https://zh.numberempire.com/derivativecalculator.php">导数计算器</a>
+<a class="menu" href="https://zh.numberempire.com/integralcalculator.php">不定积分计算器</a>
+<a class="menu" href="https://zh.numberempire.com/definiteintegralcalculator.php">定积分计算器</a>
+<a class="menu" href="https://zh.numberempire.com/limitcalculator.php">极限计算器</a>
+<a class="menu" href="https://zh.numberempire.com/seriescalculator.php">级数计算器</a>
+<a class="menu" href="https://zh.numberempire.com/equationsolver.php">方程求解器</a>
+<a class="menu" href="https://zh.numberempire.com/simplifyexpression.php">表达式化简器</a>
+<a class="menu" href="https://zh.numberempire.com/factoringcalculator.php">因式分解工具</a>
+<a class="menu" href="https://zh.numberempire.com/expressioncalculator.php">表达式计算器</a>
+<a class="menu" href="https://zh.numberempire.com/inversefunctioncalculator.php">反函数计算器</a>
+<a class="menu" href="https://zh.numberempire.com/taylorseriesexpansion.php">泰勒级数计算器</a>
+<a class="menu" href="https://zh.numberempire.com/matrixcalculator.php">矩阵计算器（其他运算）</a>
+<a class="menu" href="https://zh.numberempire.com/matrixbinarycalculator.php">矩阵运算（加、减、乘）</a>
+<a class="menu" href="https://zh.numberempire.com/graphingcalculator.php">函数图像绘制工具</a>
+  </td><td style="width: 100px;"></td><td class="left" style="width: 250px;">
+    <a class="menu" href="https://zh.numberempire.com/2d_shape_calculators.php">平面图形计算器</a>
+<a class="menu" href="https://zh.numberempire.com/3d_shape_calculators.php">立体图形计算器</a>
+<a class="menu" href="https://zh.numberempire.com/primenumbers.php">质（素）数生成器和校验器</a>
+<a class="menu" href="https://zh.numberempire.com/numberfactorizer.php">分解质因数工具</a>
+<a class="menu" href="https://zh.numberempire.com/fibonaccinumbers.php">斐波那契数计算工具</a>
+<a class="menu" href="https://zh.numberempire.com/bernoullinumbers.php">伯努利数生成器</a>
+<a class="menu" href="https://zh.numberempire.com/eulernumbers.php">欧拉数生成器</a>
+<a class="menu" href="https://zh.numberempire.com/complexnumberscalculator.php">复数计算器</a>
+<a class="menu" href="https://zh.numberempire.com/factorialcalculator.php">阶乘计算器</a>
+<a class="menu" href="https://zh.numberempire.com/gammafunctioncalculator.php">伽马函数计算器</a>
+<a class="menu" href="https://zh.numberempire.com/combinatorialcalculator.php">组合数计算器</a>
+<a class="menu" href="https://zh.numberempire.com/fractionscalculator.php">分数计算器</a>
+<a class="menu" href="https://zh.numberempire.com/statisticscalculator.php">统计工具</a>
+<a class="menu" href="https://zh.numberempire.com/latexequationeditor.php">LaTeX 公式编辑器</a>
+  </td></tr></tbody></table>
+</td></tr>
+<tr><td class="center">
+<form action="https://zh.numberempire.com/" method="post">
+<h3>数字性质</h3>
+<input type="number" id="n" min="1" name="n" placeholder="输入一个整数" title="输入一个整数" required="" class="full_width_60" style="text-align:center;">
+<span id="n-limit-indicator" style="color:gray;">0 / 12</span>
+<input type="submit" value="查找">
+</form>
+一些例子:
+<a href="https://zh.numberempire.com/3628800">3628800</a>,
+<a href="https://zh.numberempire.com/9876543211">9876543211</a>,
+<a href="https://zh.numberempire.com/12586269025">12586269025</a>
+<br>
+  </td></tr>
+  <tr><td class="text center" id="menu"><a href="https://zh.webqc.org/" target="_blank">化学工具</a>
+  </td></tr>
+</tbody></table>
+	</td></tr>
+<tr class="center"><td>
+	<a href="https://zh.numberempire.com/addtoyourwebsite.php">将这些实用的工具添加到您的网站</a>
+</td></tr>
+<tr><td></td></tr>
+<tr class="center"><td>
+<b>选择语言：</b>:
+        <a href="https://de.numberempire.com/graphingcalculator.php" hreflang="de" rel="alternate">Deutsch</a>
+            <a href="https://www.numberempire.com/graphingcalculator.php" hreflang="en" rel="alternate">English</a>
+            <a href="https://es.numberempire.com/graphingcalculator.php" hreflang="es" rel="alternate">Español</a>
+            <a href="https://fr.numberempire.com/graphingcalculator.php" hreflang="fr" rel="alternate">Français</a>
+            <a href="https://it.numberempire.com/graphingcalculator.php" hreflang="it" rel="alternate">Italiano</a>
+            <a href="https://nl.numberempire.com/graphingcalculator.php" hreflang="nl" rel="alternate">Nederlands</a>
+            <a href="https://pl.numberempire.com/graphingcalculator.php" hreflang="pl" rel="alternate">Polski</a>
+            <a href="https://pt.numberempire.com/graphingcalculator.php" hreflang="pt" rel="alternate">Português</a>
+            <a href="https://ru.numberempire.com/graphingcalculator.php" hreflang="ru" rel="alternate">Русский</a>
+        <b>    <a href="https://zh.numberempire.com/graphingcalculator.php" hreflang="zh" rel="alternate">中文</a>
+    </b>        <a href="https://ja.numberempire.com/graphingcalculator.php" hreflang="ja" rel="alternate">日本語</a>
+            <a href="https://ko.numberempire.com/graphingcalculator.php" hreflang="ko" rel="alternate">한국어</a>
+    </td>
+</tr>
+<tr><td></td></tr>
+<tr><td><div class="sharing" style="width: 100%; text-align: center; height: 60px; position: fixed; left: 0; bottom: 0; background-color: white; box-shadow: 0 0 10px #888; z-index: 10001;"><div id="sharing-page" style="display: inline-block; opacity: 1; background-image: url(&quot;/images/social/combined.png&quot;); background-size: cover; transition: all 1s ease 0s;"><div title="Share this page on Facebook" data-url="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fzh.numberempire.com%2Fgraphingcalculator.php%3Futm_source%3Dfacebook%26utm_campaign%3Dshare" data-tag="facebook" style="height: 40px; width: 40px; margin: 5px; display: inline-block; cursor: pointer;"></div><div title="Share this page on Twitter" data-url="https://twitter.com/share?text=%E5%87%BD%E6%95%B0%E5%9B%BE%E5%83%8F%E7%BB%98%E5%88%B6%E5%B7%A5%E5%85%B7&amp;url=https%3A%2F%2Fzh.numberempire.com%2Fgraphingcalculator.php%3Futm_source%3Dtwitter%26utm_campaign%3Dshare" data-tag="twitter" style="height: 40px; width: 40px; margin: 5px; display: inline-block; cursor: pointer;"></div><div title="Share this page by email" data-url="mailto:%20?subject=%E5%87%BD%E6%95%B0%E5%9B%BE%E5%83%8F%E7%BB%98%E5%88%B6%E5%B7%A5%E5%85%B7&amp;body=https%3A%2F%2Fzh.numberempire.com%2Fgraphingcalculator.php%3Futm_source%3Demail%26utm_campaign%3Dshare" data-tag="email" style="height: 40px; width: 40px; margin: 5px; display: inline-block; cursor: pointer;"></div><div title="Share this page on Reddit" data-url="https://reddit.com/submit?title=%E5%87%BD%E6%95%B0%E5%9B%BE%E5%83%8F%E7%BB%98%E5%88%B6%E5%B7%A5%E5%85%B7&amp;url=https%3A%2F%2Fzh.numberempire.com%2Fgraphingcalculator.php%3Futm_source%3Dreddit%26utm_campaign%3Dshare" data-tag="reddit" style="height: 40px; width: 40px; margin: 5px; display: inline-block; cursor: pointer;"></div><div title="Share this page on Tumblr" data-url="https://www.tumblr.com/share/link?url=https%3A%2F%2Fzh.numberempire.com%2Fgraphingcalculator.php%3Futm_source%3Dtumblr%26utm_campaign%3Dshare&amp;name=%E5%87%BD%E6%95%B0%E5%9B%BE%E5%83%8F%E7%BB%98%E5%88%B6%E5%B7%A5%E5%85%B7" data-tag="tumblr" style="height: 40px; width: 40px; margin: 5px; display: inline-block; cursor: pointer;"></div><div title="Share this page on Pinterest" data-url="javascript:pinIt()" data-tag="pinterest" style="height: 40px; width: 40px; margin: 5px; display: inline-block; cursor: pointer;"></div></div></div></td></tr>
+<tr><td></td></tr>
+<tr><td class="center m">
+<a href="https://zh.numberempire.com/">数字帝国</a> - 强大的、开放的、免费的数学工具 | <a class="contact" href="https://zh.numberempire.com/contact.php">联系站长</a>
+</td></tr>
+<tr><td></td></tr>
+<tr class="center"><td class="text">
+<span class="m gray">
+欢迎访问我们的网站！使用前请您要接受我们的<a href="https://zh.numberempire.com/termsandconditions.php">使用条款</a>和<a href="https://zh.numberempire.com/privacypolicy.php">隐私政策</a>。
+<br>© 2022
+numberempire.com
+保留所有权利
+</span><br>
+</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr>
+</tbody></table>
+<script src="./函数图像绘制工具_files/graphing_calc.js.下载" async=""></script>
+<script>
+var translations_file = '/js/tmp/7655081c5fe9ff275848e3f9a341f6ce.js';
+</script><script>function process1(x){var s=0;for(var i = 0; i < x.length; i++) {s += x.charCodeAt(i)}; var input = document.createElement('input'); input.type = 'hidden'; input.name='_p1'; input.value =s; if (document.forms[0]) document.forms[0].appendChild(input)};process1('03fdc0e086ae133a9eb1fab6013ef6fb');</script>
+<br><br>
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_3_expand" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_3_anchor" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"></ins></ins></ins></body><iframe id="google_esf" name="google_esf" src="./函数图像绘制工具_files/zrt_lookup.html" style="display: none;"></iframe></html>
